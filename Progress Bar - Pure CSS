@@ -1,0 +1,35 @@
+//CSS
+
+.container {
+  padding: 30px 10px;
+  width: 300px;
+}
+.progress {
+  height: 6px;
+  background-color: lightgray;
+  border-radius: 6px;
+  border: solid 2px lightgray;
+}
+.progress .progress-bar {
+  position: relative;
+  animation-name: animateBar;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  width: 100%;
+  background-color: mediumaquamarine;
+  height: 6px;
+  border-radius: 6px;
+}
+@keyframes animateBar {
+    0% {width: 0;}
+    50% {width: 60%;}
+    100% {width: 100%;}
+}
+
+//HTML
+<div class="container">
+  <div class="progress">
+    <div class="progress-bar">     </div>
+  </div>
+</div>
