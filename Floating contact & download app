@@ -1,0 +1,356 @@
+# HTML
+<div id="floatContact"><!-- App Download Floating -->
+        <div class="position-fixed download-float py-4 text-center row m-0" style="left: -185px;">
+    <div class="apk-icon-btn text-uppercase" style="left: -242px;">
+     
+        <span>
+        <img src="https://eu99usd.com/assets/android.png" class="android-click" width="30px" alt="">
+        <img src="https://eu99usd.com/assets/apple.png" class="ios-click" width="30px" alt="">
+        Tải xuống
+        
+        </span>
+        
+    </div>
+            <div class="col-12 p-0 justify-content-end row m-0 mb-2">
+            <a class="btn-close-circle row m-0">
+                <span class="col p-0 justify-content-center align-self-center row m-0">
+                    <i class="fas fa-times text-white"></i>
+                </span>
+            </a>
+        </div>
+        <div class="col-12 info row m-0 px-2 text-white">
+            <label class="col-12 p-0 text-uppercase text-bold mb-1 text-red">
+                Tải xuống ngay
+            </label>
+            <div class="col-12 p-0 row m-0">
+                <div class="col-12 row p-2 qrcode p-0 bg-white mx-auto">
+                    <div id="iosFlaot" class="row m-0" data-href="https://eubetvn.com/native_ios" title="https://eubetvn.com/native_ios"><canvas width="256" height="256" style="display: none;"></canvas><img src="data:image/png;base64,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" style="display: block;"></div> 
+                </div>
+                <a class="col-12 p-0 ios platform row m-0 align-items-center mx-auto justify-content-center mb-2" href="https://eubetvn.com/native_ios">
+                    <div class="row m-0 p-0 align-items-center">
+                        <img src="https://eu99usd.com/assets/download/img-ios.webp" class="p-2" alt="EU9 IOS App">
+                        <span class="text-uppercase text-left pr-2">Tải xuống</span>
+                    </div>
+                </a>
+
+                <div class="col-12 row p-2 qrcode p-0 bg-white mx-auto">
+                    <div id="androidFlaot" class="row m-0" data-href="https://eubetvn.com/apk/download/android" title="https://eubetvn.com/apk/download/android"><canvas width="256" height="256" style="display: none;"></canvas><img src="data:image/png;base64,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" style="display: block;"></div> 
+                </div>
+                <a class="col-12 p-0 android platform row m-0 align-items-center mx-auto justify-content-center mb-2" href="https://eubetvn.com/apk/download/android">
+                        <div class="row m-0 p-0 align-items-center">
+                            <img src="https://eu99usd.com/assets/download/img-android.webp" class="p-2" alt="EU9 ANDROID App">
+                            <span class="text-uppercase text-left pr-2">Tải xuống</span>
+                        </div>
+                    </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="floating-banner-container">
+        <div class="floating-banner floating-banner--right floating-banner--lang-en" data-device-platform="desktop" data-device-os="" style="right: -280px;">
+            <div class="floating-banner--title-wrapper floating-banner--align__up">
+                
+                <span class="floating-banner--title text-uppercase">Liên hệ với chúng tôi</span>
+                <div class="floating-banner--icon">
+                    <i class="fas fa-info pt-3 fa-3x"></i>
+                </div>
+            </div>
+
+            <div class="floating-banner--items">
+                <ul class="banner-list">
+                                                                                                                                                                                                                                            
+                                                <li class="banner-list--items">
+                            <a href="https://zalo.me/0794383420" class="banner-list--content" id="zaloURL" target="_blank">
+                                <span class="banner-list--content-icon">
+                                    <!-- <i class="fas fa-comment-dots"></i> -->
+                                    <img class="fab fa-lg fa-zalo" src="https://eu99usd.com/assets/contact-us-zalo.png" style="color: #13b3e5;">
+                                </span>
+                                <span class="banner-list--content-text" id="zaloNumber">0794383420</span>
+                            </a>
+                        </li>
+                        
+                                                
+                        
+                                                                                                                                                                    <li class="banner-list--items">
+                            <a href="tel:02871021888" class="banner-list--content" id="callURL">
+                                <span class="banner-list--content-icon">
+                                    <i class="fas fa-lg fa-mobile-alt"></i>
+                                </span>
+                                <span class="banner-list--content-text" id="callNumber">02871021888</span>
+                            </a>
+                        </li>
+                                                                                                                                                
+                        
+                                                
+                        
+                                                                                                                                                                                                                                                                    <li class="banner-list--items">
+                            <a href="http://t.me/https://t.me/eu9vnofficial" class="banner-list--content" id="telegramURL" target="_blank">
+                                <span class="banner-list--content-icon">
+                                    <i class="fab fa-lg fa-telegram"></i>
+                                </span>
+                                <span class="banner-list--content-text" id="telegramNumber">https://t.me/eu9vnofficial</span>
+                            </a>
+                        </li>
+                                                
+                        
+                                                
+                        
+                                                                                                                                                                                            <li class="banner-list--items">
+                            <a href="mailto:CS.EU9VN@GMAIL.COM" class="banner-list--content">
+                                <span class="banner-list--content-icon">
+                                    <i class="fas fa-lg fa-envelope"></i>
+                                </span>
+                                <span class="banner-list--content-text">CS.EU9VN@GMAIL.COM</span>
+                            </a>
+                        </li>
+                                                                                                                        
+                        
+                                                
+                        
+                                                                                                                                                                                                                                                                                            <li class="banner-list--items">
+                            <a href="http://t.me/@EU9_KhieuNai" class="banner-list--content" id="telegram2URL" target="_blank">
+                                <span class="banner-list--content-icon">
+                                    <i class="fab fa-lg fa-telegram"></i>
+                                </span>
+                                <span class="banner-list--content-text" id="telegram2Number">@EU9_KhieuNai</span>
+                            </a>
+                        </li>
+                        
+                        
+                                                
+                        
+                                                                                                                                                                                                                    <li class="banner-list--items">
+                            <a href="mailto:khieunai.eu@gmail.com" class="banner-list--content">
+                                <span class="banner-list--content-icon">
+                                    <i class="fas fa-lg fa-envelope"></i>
+                                </span>
+                                <span class="banner-list--content-text">khieunai.eu@gmail.com</span>
+                            </a>
+                        </li>
+                                                                                                
+                        
+                                                
+                        
+                                                                                                                                            <li class="banner-list--items">
+                            <a href="skype:84766868649?chat" data-popup="true" id="skypeURL" class="banner-list--content">
+                                <span class="banner-list--content-icon">
+                                    <i class="fab fa-lg fa-skype"></i>
+                                </span>
+                                <span class="banner-list--content-text" id="skypeNumber">84766868649</span>
+                            </a>
+                        </li>
+                                                                                                                                                                        
+                        
+                                                
+                        
+                                                                                                                                                                                                                                                                    
+                        
+                                                
+                        
+                                                                                                                                                                                                                                                                    
+                        
+                                                
+                        
+                                                                                                                                                                                                                                                                    
+                        
+                                                
+                        
+                                                                                                                                                                                                                                                                    
+                        
+                                                
+                        
+                                                                                                                                                                                                                                                                    
+                        
+                                                
+                        
+                                                                                                                                                                                                                                                                    
+                        
+                                                
+                        
+                                                                                                                                                                                                                                                                    
+                        
+                                                
+                        
+                                                                                                                                                                                                                                                                    
+                        
+                                                
+                        
+                                                                                                                                                                                                                                                                    
+                        
+                                                
+                        
+                                                                                                                                                                                                                                                                    
+                        
+                                                
+                        
+                                                                                                                                                                                                                                                                    
+                        
+                                                
+                        
+                                                            </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+# CSS
+/*! CSS Used from: https://eubetvn.com/css/custom.css?id=4dc9b141c168e7e83502 */
+@media (max-width:575.98px){
+#floating-banner-container{display:none;}
+}
+img{max-width:100%;height:auto;vertical-align:middle;}
+a{text-decoration:none!important;}
+.fab{font-family:"Font Awesome 5 Brands";}
+.floating-banner:hover{right:0!important;}
+.floating-banner--right{-webkit-transition:right .2s,opacity .3s;transition:right .2s,opacity .3s;}
+.floating-banner{position:fixed;top:30%;z-index:1000!important;font:16px Open Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:400;font-weight:400;color:#ffe000;opacity:0;}
+.floating-banner--title-wrapper{position:relative;display:inline-block;width:52px;height:auto;float:left;white-space:nowrap;color:#ffe000;cursor:default;}
+.floating-banner--right .floating-banner--title-wrapper .floating-banner--icon{right:0;float:right;}
+.floating-banner--icon{position:absolute;z-index:2;display:block;width:52px;height:80px;line-height:80px;margin:auto;color:#fff;text-align:center;clear:both;}
+.floating-banner--right .floating-banner--title-wrapper.floating-banner--align__up .floating-banner--title{-webkit-transform:rotate(270deg);transform:rotate(270deg);-webkit-transform-origin:right top;transform-origin:right top;margin-right:52px;min-width:242px;height:54px;line-height:52px;padding:0 40px 0 20px;float:right;border-radius:8px 8px 0 8px;letter-spacing:2px;color:#fff;}
+.floating-banner--title{display:block;padding:24px;color:#65450c;font:20px Open Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;line-height:34px;background-color:#01a4df;-webkit-backface-visibility:hidden;clear:both;text-align:center;}
+.floating-banner--items{display:inline-block;width:290px;height:100%;min-height:100%;float:left;padding:10px;vertical-align:top;background-color:#fff;}
+.banner-list{width:100%;max-width:255px;margin:0;padding:0;list-style:none;}
+.banner-list--items{position:relative;margin-bottom:5px;border:1px solid #000;border-radius:5px;}
+.floating-banner--right .banner-list--content{padding:8px;}
+.banner-list--content{display:table;width:100%;line-height:22px;color:#000;}
+.banner-list--content-icon{display:table-cell;width:10%;padding-top:1px;vertical-align:top;}
+.banner-list--content-text{display:table-cell;width:90%;padding-left:5px;vertical-align:middle;text-align:center;word-break:break-all;font-size:16px;}
+.text-uppercase{text-transform:uppercase;}
+/*! CSS Used from: https://eubetvn.com/css/app.css?id=39a6942e270678b49c4d */
+*,:after,:before{box-sizing:border-box;}
+ul{margin-bottom:1rem;}
+ul{margin-top:0;}
+a{color:#13b3e5;text-decoration:none;background-color:transparent;}
+a:hover{color:#0d7c9e;text-decoration:underline;}
+a:not([href]):not([tabindex]),a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{color:inherit;text-decoration:none;}
+a:not([href]):not([tabindex]):focus{outline:0;}
+img{border-style:none;}
+img{vertical-align:middle;}
+label{display:inline-block;margin-bottom:.5rem;}
+.row{display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col,.col-12{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+.col{flex-basis:0;flex-grow:1;max-width:100%;}
+.col-12{flex:0 0 100%;max-width:100%;}
+.bg-white{background-color:#fff!important;}
+.justify-content-end{justify-content:flex-end!important;}
+.justify-content-center{justify-content:center!important;}
+.align-items-center{align-items:center!important;}
+.align-self-center{align-self:center!important;}
+.position-fixed{position:fixed!important;}
+.m-0{margin:0!important;}
+.mb-1{margin-bottom:.25rem!important;}
+.mb-2{margin-bottom:.5rem!important;}
+.p-0{padding:0!important;}
+.p-2{padding:.5rem!important;}
+.pr-2,.px-2{padding-right:.5rem!important;}
+.px-2{padding-left:.5rem!important;}
+.pt-3{padding-top:1rem!important;}
+.py-4{padding-top:1.5rem!important;}
+.py-4{padding-bottom:1.5rem!important;}
+.mx-auto{margin-right:auto!important;}
+.mx-auto{margin-left:auto!important;}
+.text-left{text-align:left!important;}
+.text-center{text-align:center!important;}
+.text-uppercase{text-transform:uppercase!important;}
+.text-white{color:#fff!important;}
+@media print{
+*,:after,:before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+img{page-break-inside:avoid;}
+}
+.fab,.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;}
+.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em;}
+.fa-3x{font-size:3em;}
+.fa-envelope:before{content:"\F0E0";}
+.fa-info:before{content:"\F129";}
+.fa-mobile-alt:before{content:"\F3CD";}
+.fa-skype:before{content:"\F17E";}
+.fa-telegram:before{content:"\F2C6";}
+.fa-times:before{content:"\F00D";}
+.fab{font-family:Font Awesome\ 5 Brands;}
+.fab{font-weight:400;}
+.fas{font-family:Font Awesome\ 5 Free;}
+.fas{font-weight:900;}
+a{transition:all .5s ease-in-out;color:#d10000;}
+@media (prefers-reduced-motion:reduce){
+a{transition:none;}
+}
+a:hover{transition:all .5s ease-in-out;color:#666;}
+@media (prefers-reduced-motion:reduce){
+a:hover{transition:none;}
+}
+a:focus{outline:none;}
+img{-o-object-fit:cover;object-fit:cover;image-rendering:-webkit-optimize-contrast;}
+.text-white{color:#fff;}
+.text-red{color:red;}
+#floating-banner-container .floating-banner{top:125px;opacity:1;right:-400px;transition:all .5s ease-in-out;z-index:1031!important;}
+@media (prefers-reduced-motion:reduce){
+#floating-banner-container .floating-banner{transition:none;}
+}
+#floating-banner-container .floating-banner:hover{z-index:9999!important;}
+#floating-banner-container .floating-banner .floating-banner--icon{width:52px;height:52px;line-height:52px;bottom:0;}
+#floating-banner-container .floating-banner .floating-banner--icon .fa-info{font-size:1.7rem;}
+#floating-banner-container .floating-banner .floating-banner--title{text-shadow:0 0 5px #6c6c6c;font-family:Montserrat,sans-serif;font-weight:700;background-color:#ff0031;border-radius:0;border-top-left-radius:25px!important;font-size:16px;}
+#floating-banner-container .floating-banner .floating-banner--items{width:270px;min-width:270px;min-height:241px;background-color:#f9f9f9;box-shadow:0 5px 10px rgba(51,51,51,.9);}
+#floating-banner-container .floating-banner .floating-banner--items .banner-list{max-width:unset;}
+#floating-banner-container .floating-banner .floating-banner--items .banner-list--items{border:0;border-radius:0;}
+#floating-banner-container .floating-banner .floating-banner--items .banner-list--content .fa-skype{color:#00aff0;}
+#floating-banner-container .floating-banner .floating-banner--items .banner-list--content .fa-mobile-alt{color:#3ddc84;}
+#floating-banner-container .floating-banner .floating-banner--items .banner-list--content .fa-envelope{color:#b23121;}
+#floating-banner-container .floating-banner .floating-banner--items .banner-list--content .fa-telegram{color:#08c;}
+#floating-banner-container .floating-banner .floating-banner--items .banner-list--content .banner-list--content-text{width:100%;font-size:.8rem;font-weight:700;}
+#floating-banner-container .floating-banner .floating-banner--items .banner-list--content:hover{color:#d10000;}
+.btn-close-circle{background-color:#ff0031;right:10%;top:10%;font-size:1.5rem;cursor:pointer;width:25px;height:25px;border-radius:50%;border:2px solid #fff;}
+.btn-close-circle span{color:#fff;font-size:1rem;}
+.btn-close-circle:hover span{-webkit-animation:rotate 2s;animation:rotate 2s;}
+.bg-white{background:#fff;}
+.text-uppercase{text-transform:uppercase;}
+.text-bold{font-weight:700;}
+.text-red{color:#ff0031;}
+.apk-icon-btn{position:fixed;left:-242px;top:125px;cursor:pointer;min-width:242px;-webkit-transform:rotate(270deg);transform:rotate(270deg);-webkit-transform-origin:right top;transform-origin:right top;transition:all .5s ease-in-out;}
+.apk-icon-btn span{height:54px;line-height:52px;padding:0 20px;float:right;border-radius:8px 8px 0 8px;letter-spacing:2px;color:#fff;background:#ff0031;border-radius:0;font-weight:700;border-bottom-left-radius:25px!important;font-size:16px;}
+.apk-icon-btn span img{-webkit-transform:rotate(90deg);transform:rotate(90deg);}
+@media (prefers-reduced-motion:reduce){
+.apk-icon-btn{transition:none;}
+}
+.download-float{width:185px;top:125px;min-height:300px;z-index:1031;left:-185px;background:#fff;transition:all .5s ease-in-out;}
+@media (prefers-reduced-motion:reduce){
+.download-float{transition:none;}
+}
+.download-float .btn-close-circle{height:30px;width:30px;z-index:3;position:absolute;right:10px;top:-20px;}
+.download-float .btn-close-circle i{font-size:1rem;}
+.download-float .qrcode{max-width:120px;height:120px;}
+.download-float .qrcode canvas,.download-float .qrcode img{width:100px;}
+.download-float .info{border-bottom-left-radius:50px!important;}
+.download-float .info .platform{background-color:#231f20;border-radius:5px;max-width:120px;}
+.download-float .info .platform:hover{background-color:#3f3a37;}
+.download-float .info .platform img{width:35px;height:35px;}
+.download-float .info .platform span{width:calc(100% - 35px);font-size:.8rem;line-height:.8rem;color:#fff;}
+/*! CSS Used keyframes */
+@-webkit-keyframes rotate{to{-webkit-transform:rotate(2turn);transform:rotate(2turn);}}
+@keyframes rotate{to{-webkit-transform:rotate(2turn);transform:rotate(2turn);}}
+/*! CSS Used fontfaces */
+@font-face{font-family:Font Awesome\ 5 Brands;font-style:normal;font-weight:400;font-display:block;src:url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot?592643a83b8541edc52063d84c468700);src:url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot?592643a83b8541edc52063d84c468700) format("embedded-opentype"),url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2?ed311c7a0ade9a75bb3ebf5a7670f31d) format("woff2"),url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff?1a575a4138e5f366474f0e7c5bd614a5) format("woff"),url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf?513aa607d398efaccc559916c3431403) format("truetype"),url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.svg?1d5619cd804367cefe6da2d79289218a) format("svg");}
+@font-face{font-family:Font Awesome\ 5 Free;font-style:normal;font-weight:400;font-display:block;src:url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.eot?b0e2db3b634d1bc3928e127458d993d8);src:url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.eot?b0e2db3b634d1bc3928e127458d993d8) format("embedded-opentype"),url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff2?b91d376b8d7646d671cd820950d5f7f1) format("woff2"),url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff?d1d7e3b4c219fde0f7376c6facfd7149) format("woff"),url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.ttf?766913e6c0088ab8c9f73e18b4127bc4) format("truetype"),url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.svg?c5d109be8edd3de0f60eb472bd9ef691) format("svg");}
+@font-face{font-family:Font Awesome\ 5 Free;font-style:normal;font-weight:900;font-display:block;src:url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.eot?0c6bfc668a72935760178f91327aed3a);src:url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.eot?0c6bfc668a72935760178f91327aed3a) format("embedded-opentype"),url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2?d824df7eb2e268626a2dd9a6a741ac4e) format("woff2"),url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff?d745348d289b149026921f197929a893) format("woff"),url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf?b9625119ce4300f0ef890a8f3234c773) format("truetype"),url(https://eubetvn.com/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.svg?37bc7099f6f1ba80236164f22e905837) format("svg");}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');unicode-range:U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');unicode-range:U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');unicode-range:U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+
+# screenshot
+https://prnt.sc/7rpstloSRblh
